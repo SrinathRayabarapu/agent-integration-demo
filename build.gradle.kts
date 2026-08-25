@@ -12,7 +12,7 @@ java {
 
 dependencies {
     // Spring AI BOM keeps all spring-ai-* artifacts on compatible versions.
-    implementation(platform("org.springframework.ai:spring-ai-bom:2.0.0"))
+    implementation(platform("org.springframework.ai:spring-ai-bom:2.0.1"))
     runtimeOnly("org.springframework.boot:spring-boot-starter-jackson")
     implementation("org.springframework.ai:spring-ai-starter-model-ollama")
     implementation("org.springframework.ai:spring-ai-starter-model-bedrock")
